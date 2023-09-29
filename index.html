@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineers design</title>
+    <meta name="description"
+        content="In this site i expalin some                                                    best design of Engineers and it change our life and give easy way to work in daily life....">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-dark bg-primary sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Engineers design</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> HELLO </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close" my-2></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                            <button type="button" class="btn btn-primary  my-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">login</button>
+                            <button type="button" class="btn btn-primary  my-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">signup</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="mb-3 mx-2">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                placeholder="*******">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">login</button>
+                        <button type="button" class="btn btn-primary">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="mb-6 mx-2">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-6">
+                            <label for="exampleFormControlTextarea1" class="form-label">password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                placeholder="*******">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">signup</button>
+                        <button type="button" class="btn btn-primary">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-primary slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://source.unsplash.com/1600x450/?laptop,science" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Er vikram mehar</h5>
+                        <p>This has also helped to save many lives with the use of technology.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://source.unsplash.com/1600x450/?it programing,ocean" class="d-block w-100"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>he is good engineer</h5>
+                        <p> The contribution of engineers helped us to send a man to space. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1600x450/?girls,ocean" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>he also have a good web developer</h5>
+                        <p> There are new inventions and improvements in technology made by engineers every day.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="flex mx-2">
+            <div class="red">
+
+                <div class="card" style="width: 16rem;">
+                    <img src="diya786 (2).jpg" class="card-img-top" alt="...">
+                    <div class="card-body mx-2">
+                        <p class="card-text mx-4">Some newly reported clumps of cells growing in lab dishes have been
+                            hailed
+                            as
+                            the closest things to human embryos that scientists have ever made in the lab.
+
+                            These entities are human embryo models — masses of cells created from stem cells that mimic
+                            some
+                            properties of certain stages of embryo development. The achievement gives researchers a
+                            chance
+                            to look at human development beyond the first week or so, when an embryo must implant in the
+                            uterus to develop further. That post-implantation stage been re-created in lab dishes —
+                            until now. </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pink">
+                <div class="card" style="width: 16rem;">
+                    <img src="https://source.unsplash.com/1170x1500/?programmer,it" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text mx-4">Technology is a term dating back to the early 17th century that meant
+                            'systematic treatment' from Greek , from the Greek: romanized: tékhnē,
+                            lit.craft, art' and 'study, knowledge predated in use by the Ancient
+                            Greek word used to mean 'knowledge of how to make things', which encompassed activities
+                            like architecture.[6]
+
+                            Starting in the 19th century, continental Europeans started using the terms Technik (German)
+                            or
+                            technique (French) to refer to a 'way of doing', which included all technical arts, such as
+                            dancing, navigation, or printing, </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="yoyo bg-dark yoyo-light">
+                <h2 class="text-bg-dark text-center">Current time & date zone</h2>
+                <p id="date" class="mx-2"> time</p>
+                <h3>INDIAN STANDARD TIME</h3>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="p-4">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+                <li><a href="#">January 2023</a></li>
+                <li><a href="#">December 2023</a></li>
+                <li><a href="#">November 2023</a></li>
+                <li><a href="#">October 2023</a></li>
+                <li><a href="#">September 2023</a></li>
+                <li><a href="#">August 2023</a></li>
+                <li><a href="#">July 2023</a></li>
+                <li><a href="#">June 2023</a></li>
+                <li><a href="#">May 2023</a></li>
+                <li><a href="#">April 2023</a></li>
+            </ol>
+        </div>
+        <div class="love">
+
+            <div>
+                <h4 class="fst-italic">Recent posts</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                            href="#">
+                            <img class="bd-placeholder-img" width="100%" height="96"
+                                src="https://source.unsplash.com/200x150/?it,technology" alt="">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0 mx-2">Technology is changing our life </h6>
+                                <small class="text-body-secondary">January 15, 2023</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                            href="#">
+                            <img class="bd-placeholder-img" width="100%" height="96"
+                                src="https://source.unsplash.com/200x150/?laptop,ocean" alt="">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0 mx-2">Quartz spoke to Kahn about the increasing prevalence of
+                                    technological nature
+                                    and why humans will be unable to invent an alternative to fostering meaningful
+                                    connections
+                                    with our environment.
+                                </h6>
+                                <small class="text-body-secondary">January 14, 2023</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                            href="#">
+                            <img class="bd-placeholder-img" width="100%" height="96"
+                                src="https://source.unsplash.com/200x150/?beautiful,girl" alt="">
+                            <div class="col-lg-8">
+                                <h6 class="mb-0 mx-2">Can technological nature experiences such as VR nature simulations
+                                    or video
+                                    games provide comparable benefits to those reaped from time spent in real nature?
+                                </h6>
+                                <small class="text-body-secondary">January 13, 2023</small>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="p-4">
+            <h4 class="fst-italic">Elsewhere</h4>
+            <ol class="list-unstyled">
+                <li><a href="https://GitHub.com">GitHub</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://instagram.com">instagram</a></li>
+
+            </ol>
+        </div>
+
+    </section>
+    <footer>
+        &copy; by Er vik.. page .com
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="vikram.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

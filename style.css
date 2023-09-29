@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Onest:wght@500&family=Poppins:ital,wght@1,200&display=swap');
+
+header {
+    margin-bottom: 1vh;
+}
+
+main {
+    background: green;
+    color: antiquewhite;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.red {
+    float: right;
+    display: inline;
+}
+
+footer {
+    background: black;
+    color: white;
+    position: absolute;
+    top: 420vh;
+    width: 100vw;
+    text-align: center;
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: skyblue;
+    }
+
+
+    footer {
+        background: black;
+        color: white;
+        position: absolute;
+        top: 1060vh;
+        width: 100vw;
+        text-align:center;}}
+.yoyo {
+    display: inline-block;
+    width: 400px;
+    height: 640px;
+    flex-grow: calc(2);
+}
+
+.yoyo p {
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    font-size: xx-large;
+    position: relative;
+    top: 250px;
+}
+
+.yoyo h3 {
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    position: relative;
+    top: 400px;
+}
+
+.flex {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pink {
+    order: 3;
+}
