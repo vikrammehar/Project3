@@ -32,7 +32,7 @@ footer {
         background-color: skyblue;
     }
 
-
+@media (max-height:800px) {footer{top:400vh;}}
     footer {
         background: black;
         color: white;
